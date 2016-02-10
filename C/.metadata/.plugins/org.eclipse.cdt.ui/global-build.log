@@ -1,0 +1,18 @@
+13:50:22 **** Build of configuration Debug for project testt ****
+make all 
+Building file: ../src/testt.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/testt.d" -MT"src/testt.d" -o "src/testt.o" "../src/testt.cpp"
+Finished building: ../src/testt.cpp
+ 
+Building target: testt
+Invoking: Cross G++ Linker
+g++  -o "testt"  ./src/testt.o   
+Finished building target: testt
+ 
+13:50:31 **** Incremental Build of configuration Debug for project testt ****
+make all 
+make: Nothing to be done for `all'.
+00:16:17 **** Incremental Build of configuration Debug for project testt ****
+make all 
+make: Nothing to be done for `all'.
